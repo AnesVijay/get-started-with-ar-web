@@ -40,7 +40,7 @@ module.exports = {
       favicon: false,
     }),
     new CopyWebpackPlugin({
-      patterns: [{ from: "./assets/models", to: "./assets/models" }],
+      patterns: [{ from: "./assets", to: "./assets" }],
     }),
   ],
   output: {
